@@ -29,11 +29,11 @@ The documentation of MerkleProof openzepplin's [contract](https://docs.openzeppe
 
 In order to test your contract, you are going to use mocha which helps create easy unit tests. Here are the steps you will follow:
 
-- Create a set of tests called MerkleTreeAuth.
-- Create a getAccounts function called that will return the first two signers accounts of ethers.
-- Create a getLeafNodes function that will return an array of leaf nodes and that takes as parameters an array of strings (the accounts).
-- Create a buildMerkleTree function that will first call the getLeafNodes function with the accounts and create a new MerkleTree using merkletreejs. It will return the root of the merkle tree.
-- Create a test to deploy the MerkleTreeAuth contract using the fonctions you previously created.
+- Create a set of tests called __MerkleTreeAuth__.
+- Create a __getAccounts__ function called that will return the first two signers accounts of ethers.
+- Create a __getLeafNodes__ function that will return an array of leaf nodes and that takes as parameters an array of strings (the accounts).
+- Create a __buildMerkleTree__ function that will first call the getLeafNodes function with the accounts and create a new MerkleTree using merkletreejs. It will return the root of the merkle tree.
+- Create a test to __deploy__ the MerkleTreeAuth contract using the fonctions you previously created.
 - Inside another sub set of tests, create two seperate tests that will check if a account inside the merkle tree is authorized and the opposite.
 
 ### Documentation
