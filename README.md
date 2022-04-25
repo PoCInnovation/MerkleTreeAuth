@@ -21,13 +21,17 @@ We are going to use one of the openzepplin contracts called MerkleProof.sol to h
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 ```
 
-https://docs.soliditylang.org/en/v0.8.0/
+The official solidity [documentation](https://docs.soliditylang.org/en/v0.8.0/)
 
-https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html#a-simple-smart-contract
+An example of a solidity [smart contract](https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html#a-simple-smart-contract)
 
-https://docs.openzeppelin.com/contracts/3.x/api/cryptography
+The documentation of MerkleProof openzepplin's [contract](https://docs.openzeppelin.com/contracts/3.x/api/cryptography)
 
 ## Step 02 - Test Contract
+
+In order to test your contract, you are going to use mocha which helps create easy unit tests. Here are the steps you will follow:
+
+- 
 
 ### Documentation
 
