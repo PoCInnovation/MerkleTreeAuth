@@ -53,5 +53,3 @@ import { keccak256 } from "ethers/lib/utils";
 import { ethers } from "hardhat";
 import { MerkleTree } from "merkletreejs";
 ```
-
-### Documentation
