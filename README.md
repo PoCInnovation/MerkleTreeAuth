@@ -31,6 +31,29 @@ https://docs.openzeppelin.com/contracts/3.x/api/cryptography
 
 ### Documentation
 
-## Step 03 - Deploy
+## Step 03 - Deploy Contract
+
+In this step we will deploy our MerkleTreeAuth Contract.
+
+To do this we will create a main function.
+
+In it, we will need to define three things.
+
+- Collection of all signers on ethers.
+- Creating our leafsNodes which simply returns a keccak256 of the account addresses.
+- Create our merkleTree which takes as parameters our leafNode and a MerkleRoot.
+
+All you have to do is to get your **MerkleTreeAuth** contract and deploy it !
+
+Don't hesitate to use console.log to display the address of your MerkleProof in order to check the data.
+
+### Documentation
+
+You may need all three of these imports:
+```ts
+import { keccak256 } from "ethers/lib/utils";
+import { ethers } from "hardhat";
+import { MerkleTree } from "merkletreejs";
+```
 
 ### Documentation
