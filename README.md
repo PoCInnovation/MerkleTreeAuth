@@ -21,8 +21,8 @@ We are going to use one of the openzepplin contracts called MerkleProof.sol to h
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 ```
 
-The official solidity [documentation](https://docs.soliditylang.org/en/v0.8.0/)
-An example of a solidity [smart contract](https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html#a-simple-smart-contract)
+The official solidity [documentation](https://docs.soliditylang.org/en/v0.8.0/)</br>
+An example of a solidity [smart contract](https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html#a-simple-smart-contract)</br>
 The documentation of MerkleProof openzepplin's [contract](https://docs.openzeppelin.com/contracts/3.x/api/cryptography)
 
 ## Step 02 - Test Contract
@@ -46,11 +46,11 @@ import { ethers } from "hardhat";
 import { MerkleTree } from "merkletreejs";
 import { Contract } from "ethers";
 ```
-[chai](https://www.npmjs.com/package/chai)
-[keccak256](https://www.npmjs.com/package/keccak256)
-[hardhat](https://www.npmjs.com/package/hardhat)
-[merkletreejs](https://www.npmjs.com/package/merkletreejs)
-[ethers](https://www.npmjs.com/package/ethers)
+The test framework is [chai](https://www.npmjs.com/package/chai)</br>
+The hash function is [keccak256](https://www.npmjs.com/package/keccak256)</br>
+The evm interaction is [hardhat](https://www.npmjs.com/package/hardhat)</br>
+The merkletree implmentation is [merkletreejs](https://www.npmjs.com/package/merkletreejs)</br>
+The accounts holder is [ethers](https://www.npmjs.com/package/ethers)
 
 ## Step 03 - Deploy Contract
 
