@@ -10,7 +10,7 @@ In order to create a __Merkle Proof Authentification__, you are going to need to
 
 - And now, you are going to create a __isAuthorized__ function which take as parameter a __bytes32[]__ which is the merkleProof we need to check. It has a visibility of __public view__ and it must return a __boolean__ that will determine if the element is inside the tree or not.
 
-In the next step, you are going to create tests for the contract in ts using mocha
+In the next step, you are going to create tests for the contract in ts using chai
 
 ### Documentation
 
@@ -27,7 +27,7 @@ The documentation of MerkleProof openzepplin's [contract](https://docs.openzeppe
 
 ## Step 02 - Test Contract
 
-In order to test your contract, you are going to use mocha which helps create easy unit tests. Here are the steps you will follow:
+In order to test your contract, you are going to use chai which helps create easy unit tests. Here are the steps you will follow:
 
 - Create a set of tests called __MerkleTreeAuth__.
 - Create a __getAccounts__ function called that will return the first two signers accounts of ethers.
@@ -46,6 +46,11 @@ import { ethers } from "hardhat";
 import { MerkleTree } from "merkletreejs";
 import { Contract } from "ethers";
 ```
+[chai](https://www.npmjs.com/package/chai)
+[keccak256](https://www.npmjs.com/package/keccak256)
+[hardhat](https://www.npmjs.com/package/hardhat)
+[merkletreejs](https://www.npmjs.com/package/merkletreejs)
+[ethers](https://www.npmjs.com/package/ethers)
 
 ## Step 03 - Deploy Contract
 
