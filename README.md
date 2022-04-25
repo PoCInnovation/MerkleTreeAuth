@@ -17,7 +17,7 @@ In the next step, you are going to create tests for the contract in ts using moc
 To do this, you should use the __0.8.0__ solidity version.
 
 We are going to use one of the openzepplin contracts called MerkleProof.sol to help us in this task
-```
+```ts
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 ```
 
