@@ -33,9 +33,9 @@ https://docs.openzeppelin.com/contracts/3.x/api/cryptography
 
 ## Step 03 - Deploy Contract
 
-In this step we will deploy our MerkleTreeAuth Contract.</b>
-To do this we will create a main function.</b>
-In it, we will need to define three things.</b>
+In this step we will deploy our MerkleTreeAuth Contract.</br>
+To do this we will create a main function.</br>
+In it, we will need to define three things.</br>
 
 - Collection of all signers on ethers.
 - Creating our leafsNodes which simply returns a keccak256 of the account addresses.
