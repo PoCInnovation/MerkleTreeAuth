@@ -27,7 +27,7 @@ https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html#a-s
 
 https://docs.openzeppelin.com/contracts/3.x/api/cryptography
 
-## Step 02 - Merkle Tree
+## Step 02 - Test Contract
 
 ### Documentation
 
