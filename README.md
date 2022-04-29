@@ -1,6 +1,5 @@
 # MerkleTreeAuth
 
-## Step 00 - Introduction
 
 ## Step 01 - Merkle Tree
 
